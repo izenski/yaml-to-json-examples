@@ -1,0 +1,51 @@
+{
+  "345": 6789,
+  "key": "value",
+  "key with quotes": "value with quotes",
+  "special_chars": "special characters work in quotes",
+  "single quotes": "these work",
+  "single quotes in value": "value 'in' single quotes",
+  "escaped characters": "have to be double ☺ \n quotes",
+  "array": [
+    "hello",
+    "world"
+  ],
+  "json_array": [
+    "hello",
+    "world"
+  ],
+  "number": 100,
+  "boolean": true,
+  "null": null,
+  "also null": null,
+  "object (called map in yaml)": {
+    "key": "value",
+    "another": "value",
+    "nested_object": {
+      "nested_key": "nested_value"
+    }
+  },
+  "json_style_object": {
+    "key": "value",
+    "another": "value",
+    "nested_object": {
+      "nested_key": "nested_value"
+    }
+  },
+  "sequence": [
+    "Item 1",
+    "Item 2",
+    0.5,
+    {
+      "key": "value",
+      "another_key": "value"
+    },
+    [
+      "nested array",
+      "nest array item 2",
+      "nested array item 3"
+    ]
+  ],
+  "literal block": "This is a literal block\nIt preserves newlines\n  and indentation\nand special characters like \\u263A\n",
+  "folded_block": "This is a folded block It replaces newlines with spaces and empty lines with a newline but not indentation and keeps special characters like \\u263A\n"
+}
